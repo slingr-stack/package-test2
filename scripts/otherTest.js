@@ -1,3 +1,3 @@
 exports.otherTest = function () {
-    return "other test";
+    return "other test"; //test
 }
