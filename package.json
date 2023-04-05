@@ -2,7 +2,7 @@
    "label": "Package Test2",
    "name": "packageTest2",
    "dependencies": [],
-   "configuration":[{],
+   "configuration":[],
    "events": [
 	   {
 		"name": "test"
