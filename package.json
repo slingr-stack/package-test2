@@ -2,8 +2,14 @@
    "label": "Package Test2",
    "name": "packageTest2",
    "dependencies": [],
-   "configuration":[],
-   "events": [],
+   "configuration":[{],
+   "events": [
+	   {
+		"name": "test"
+		"label": "Test"
+		"description": "Here you have your description"
+	   }
+   ],
    "metadata": [
        {
            "type": "script",
