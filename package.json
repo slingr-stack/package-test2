@@ -5,8 +5,8 @@
    "configuration":[],
    "events": [
 	   {
-		"name": "test"
-		"label": "Test"
+		"name": "test",
+		"label": "Test",
 		"description": "Here you have your description"
 	   }
    ],
