@@ -20,6 +20,12 @@
        "type": "script",
        "namespace": "api",
        "path": "/scripts/otherTest2.js"
+     },
+     {
+       "type": "listener",
+       "namespace": "listener1",
+       "path": "/listeners/listener1.js"
      }
+
    ]
 }
