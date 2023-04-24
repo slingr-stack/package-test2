@@ -1,31 +1,30 @@
 {
-   "label": "Package Test2",
-   "name": "packageTest2",
-   "dependencies": [],
-   "configuration":[],
-   "events": [
-	   {
-		"name": "test",
-		"label": "Test",
-		"description": "Here you have your description"
-	   }
-   ],
-   "metadata": [
-       {
-           "type": "script",
-           "namespace": "api",
-           "path": "/scripts/otherTest.js"
-       },
-     {
-       "type": "script",
-       "namespace": "api",
-       "path": "/scripts/otherTest2.js"
-     },
-     {
-       "type": "listener",
-       "namespace": "listener1",
-       "path": "/listeners/listener1.js"
-     }
-
-   ]
+  "label": "Package Test2",
+  "name": "packageTest2",
+  "dependencies": [],
+  "configuration": [],
+  "events": [
+    {
+      "name": "test",
+      "label": "Test",
+      "description": "Here you have your description"
+    }
+  ],
+  "metadata": [
+    {
+      "type": "script",
+      "namespace": "api",
+      "path": "/scripts/otherTest.js"
+    },
+    {
+      "type": "script",
+      "namespace": "api",
+      "path": "/scripts/otherTest2.js"
+    },
+    {
+      "type": "listener",
+      "namespace": "listener1",
+      "path": "/listeners/listeners1.js"
+    }
+  ]
 }
