@@ -1,6 +1,6 @@
 listeners.listener1 = {
     label: 'Catch HTTP events',
-    type: 'endpoint',
+    type: 'service',
     options: {
         service: 'http',
         event: 'webhook',
