@@ -10,6 +10,6 @@ listeners.listener1 = {
     },
     callback: function(event) {
         sys.logs.error('received panadoc webhook. Processign and triggering a package event');
-        sys.events.triggerEvent('http:test',event);
+        sys.events.triggerEvent('packageTestTwo:test',event);
     }
 };
