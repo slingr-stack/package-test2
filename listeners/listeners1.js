@@ -1,5 +1,5 @@
 listeners.listener1 = {
-    label: 'Catch HTTP events',
+    label: 'Catch HTTP pandadoc events',
     type: 'service',
     options: {
         service: 'http',
@@ -9,6 +9,7 @@ listeners.listener1 = {
         }
     },
     callback: function(event) {
-       sys.logs.error(JSON.stringify(event));
+        sys.logs.error('received panadoc webhook. Processign and triggering a package event');
+        sys.events.triggerEvent('http:test',event);
     }
 };
