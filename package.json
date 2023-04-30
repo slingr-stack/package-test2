@@ -1,7 +1,11 @@
 {
   "label": "Package Test2",
   "name": "packageTestt",
-  "dependencies": [],
+  "dependencies": [{
+    "type": "package",
+    "name": "nesteddep",
+    "version": "v1.0.0"
+  }],
   "configuration": [],
   "events": [
     {
