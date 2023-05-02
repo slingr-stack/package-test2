@@ -3,6 +3,6 @@ exports.otherTest2 = function () {
 }
 
 exports.nestedmethod = function () {
-    var value = dependencies.nesteddep.test.nested();
+    var value = "Dependency Y\n" +  dependencies.nesteddep.test.nested();
     return value;
 }
