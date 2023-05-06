@@ -1,9 +1,13 @@
 {
-  "label": "Package Test2",
-  "name": "packageTestt",
+  "label": "Package Test",
+  "name": "packageTest",
   "dependencies": [{
     "type": "package",
-    "name": "nesteddep",
+    "name": "nested-dep1",
+    "version": "v1.0.0"
+  },{
+    "type": "package",
+    "name": "versionTest",
     "version": "v1.0.0"
   }],
   "configuration": [],
@@ -18,12 +22,7 @@
     {
       "type": "script",
       "namespace": "api",
-      "path": "/scripts/otherTest.js"
-    },
-    {
-      "type": "script",
-      "namespace": "api",
-      "path": "/scripts/otherTest2.js"
+      "path": "/scripts/library.js"
     },
     {
       "type": "listener",
