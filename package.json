@@ -3,7 +3,7 @@
   "name": "packageTest",
   "dependencies": [{
     "type": "package",
-    "name": "nested-dep1",
+    "name": "nesteddep1",
     "version": "v1.0.0"
   },{
     "type": "package",
