@@ -25,6 +25,11 @@
       "path": "/scripts/library.js"
     },
     {
+      "type": "script",
+      "namespace": "api",
+      "path": "/scripts/dep.js"
+    },
+    {
       "type": "listener",
       "namespace": "listener1",
       "path": "/listeners/listeners1.js"
