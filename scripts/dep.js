@@ -5,7 +5,7 @@ exports.getNestedDepMsg = function(){
 
 exports.setNestedDepMsg = function(value){
     dependencies.nesteddep1.dependency.setDepMsg(value);
-    return "Message configured on dependency with value:" + value
+    return "Message configured on nested dependency with value:" + value
 }
 
 exports.callNestedDepService = function () {
