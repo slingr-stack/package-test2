@@ -4,13 +4,19 @@
   "dependencies": [{
     "type": "package",
     "name": "nesteddep1",
-    "version": "v1.0.0"
+    "version": "v1.0.2"
   },{
     "type": "package",
     "name": "versionTest",
     "version": "v1.0.0"
   }],
   "configuration": [
+    {
+      "name": "message",
+      "label": "Grandchild message",
+      "type": "text",
+      "required": false
+    },
     {
       "name": "authenticationMethod",
       "label": "Authentication Method",
