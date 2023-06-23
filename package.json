@@ -4,7 +4,7 @@
   "dependencies": [{
     "type": "package",
     "name": "nesteddep1",
-    "version": "v1.0.2"
+    "version": "v1.0.4"
   },{
     "type": "package",
     "name": "versionTest",
