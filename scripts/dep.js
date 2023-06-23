@@ -11,3 +11,7 @@ exports.setNestedDepMsg = function(value){
 exports.callNestedDepService = function () {
     return dependencies.nesteddep1.dependency.callDepService()
 }
+
+exports.nestedFunction1 = function () {
+    return dependencies.nesteddep1.dependency.function1();
+}
